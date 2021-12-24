@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0;
+    min-width: 320px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+
+.container-formation {
+    position: relative;
+    padding: 140px 20px 0px 150px;
+    min-height: 100vh;
+}
+
+.container-formation-solo {
+    position: relative;
+    padding: 0 50px 0 90px;
+    min-height: 100vh;
+}
+
+.hide {
+    display: none !important;
+}
+
+.filter {
+    filter: brightness(0.5);
+}

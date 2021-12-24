@@ -1,0 +1,25 @@
+<div #projects id="projects" class="work_container container-formation">
+    <div class="fake-big">
+        Work
+    </div>
+    <h2>Mein Portfolio</h2>
+    <!-- <p>Hier finden Sie eine kleine Auswahl von meinen Projekten.<br> Besuchen Sie doch gerne meine <a href="#projects">Work</a> Seite um mehr zu sehen.</p> -->
+    <div class="titles_projects">
+        <span class="btn draw-border">Alles</span>
+        <span class="btn draw-border">Angular</span>
+        <span class="btn draw-border">JavaScript</span>
+    </div>
+    <div class="projects">
+        <div *ngFor="let project of allProjects; let i = index">
+            <div (mouseover)="showCard(i)" (mouseout)="hideCard(i)" id="projectCard" class="project filter">
+                <img src="../../assets/img/projects/{{project.img}}">
+                <div id="card{{i}}" class="overlay_project hide card">
+                    <div class="project_title">{{project.name}}</div>
+                    <div class="project_description">{{project.description}}</div>
+                    <div class="project_type">{{project.type}}</div>
+                    <a href="{{project.url}}">Anschauen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
