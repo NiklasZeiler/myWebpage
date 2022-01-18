@@ -26,11 +26,10 @@
     align-items: flex-start;
     flex-wrap: wrap;
     overflow: hidden;
-    
 
     .project {
         position: relative;
-        width: 442.17px;
+        width: clamp(80px, 80vw, 442.17px);
         height: 367.43px;
         margin: 20px 20px;
         border-radius: 11px;
@@ -41,44 +40,54 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(255, 255, 255, 0.9);
             display: flex;
             justify-content: center;
             border-radius: 11px;
+            animation: scale 1s ease-in-out;
+
+            @keyframes scale {
+                from {
+                    transform: scale(0);
+                }
+
+                to {
+                    transform: scale(1);
+                }
+            }
         }
 
         img {
-            width: 442.17px;
+            width: clamp(80px, 80vw, 442.17px);
             height: 367.43px;
             object-fit: cover;
             border-radius: 11px;
         }
 
-        .project_title {
-            position: absolute;
-            color: #e12323;
-            font-size: 30px;
-            font-weight: 700;
-            margin-top: 60px;
-            text-align: center;
-        }
+        // .project_title {
+        //     position: absolute;
+        //     color: #e12323;
+        //     font-size: 30px;
+        //     font-weight: 700;
+        //     margin-top: 60px;
+        //     text-align: center;
+        // }
 
-        .project_description {
-            position: absolute;
-            bottom: 100px;
-            color: black;
-            text-align: center;
-            font-size: 18px;
-            font-weight: 400;
-        }
+        // .project_description {
+        //     position: absolute;
+        //     bottom: 100px;
+        //     color: black;
+        //     text-align: center;
+        //     font-size: 18px;
+        //     font-weight: 400;
+        // }
 
-        .project_type {
-            color: black;
-            font-size: 18px;
-            text-align: center;
-            font-weight: 400;
-            margin-top: 20px;
-        }
+        // .project_type {
+        //     color: black;
+        //     font-size: 18px;
+        //     text-align: center;
+        //     font-weight: 400;
+        //     margin-top: 20px;
+        // }
 
         a {
             position: absolute;

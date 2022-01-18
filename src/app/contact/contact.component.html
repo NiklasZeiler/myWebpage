@@ -1,0 +1,20 @@
+<section class="contact_container container-formation">
+    <div class="headline_contact">
+        <h2>Kontaktiere mich</h2>
+        <span class="headline_email">Kontaktieren Sie mich über das untenstehende Formular oder per E-Mail an <br><a
+                [href]="emailstring" target="_top">zeiler.niklas@outlook.com</a>
+        </span>
+        <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
+            Name
+            <input class="focus-visable" [formControl]="name" required placeholder="Name" />
+            <span class="border"></span>
+            Email
+            <input [formControl]="email" placeholder="email@example.com" required />
+            <span class="border"></span>
+            Message
+            <textarea [formControl]="message" placeholder="Please type your message here" required></textarea>
+            <span class="border"></span>
+            <button [disabled]="isLoading" class="submit draw-border btn" type="submit">Submit</button>
+        </form>
+    </div>
+</section>

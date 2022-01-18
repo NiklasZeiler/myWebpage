@@ -2,22 +2,21 @@
     <div class="fake-big">
         Work
     </div>
-    <h2>Mein Portfolio</h2>
-    <!-- <p>Hier finden Sie eine kleine Auswahl von meinen Projekten.<br> Besuchen Sie doch gerne meine <a href="#projects">Work</a> Seite um mehr zu sehen.</p> -->
+    <h2>My work</h2>
     <div class="titles_projects">
-        <span class="btn draw-border">Alles</span>
-        <span class="btn draw-border">Angular</span>
-        <span class="btn draw-border">JavaScript</span>
+        <p>Here you can find a small selection of my projects.<br> Please feel free to visit my <a
+                routerLink="projects-solo">work</a> page to see more.</p>
     </div>
     <div class="projects">
         <div *ngFor="let project of allProjects; let i = index">
-            <div (mouseover)="showCard(i)" (mouseout)="hideCard(i)" id="projectCard" class="project filter">
-                <img src="../../assets/img/projects/{{project.img}}">
+            <div (mouseover)="showCard(i)" (mouseout)="hideCard(i)" id="projectCard" class="project">
+                <img src="../../assets/img/projects/{{ project.img }}">
                 <div id="card{{i}}" class="overlay_project hide card">
-                    <div class="project_title">{{project.name}}</div>
+                    <img src="../../assets/img/projects/{{ project.imgover }}">
+                    <!-- <div class="project_title">{{project.name}}</div>
                     <div class="project_description">{{project.description}}</div>
-                    <div class="project_type">{{project.type}}</div>
-                    <a href="{{project.url}}">Anschauen</a>
+                    <div class="project_type">{{project.type}}</div> -->
+                    <a href="{{ project.url }}" target="_blank">View</a>
                 </div>
             </div>
         </div>

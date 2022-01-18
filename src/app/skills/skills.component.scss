@@ -1,0 +1,51 @@
+.skill-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+
+    mat-card {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 8px;
+        margin-top: 8px;
+        font-family: "Source Sans Pro", sans-serif;
+
+        .headline-skills {
+            display: flex;
+            align-items: center;
+            position: absolute;
+
+            .svg {
+                width: 24px;
+                height: 24px;
+                margin-right: 4px;
+                // opacity: 0.5;
+                filter:invert(16%) sepia(53%) saturate(6894%) hue-rotate(356deg) brightness(99%) contrast(79%);
+            }
+        }
+    }
+}
+
+.d-none {
+    display: none;
+}
+
+.top {
+    top: 0;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+

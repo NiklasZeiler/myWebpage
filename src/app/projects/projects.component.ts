@@ -6,10 +6,11 @@ import { allProjects } from '../projects';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
-export class ProjectsComponent implements OnInit ,AfterViewInit {
+export class ProjectsComponent implements OnInit, AfterViewInit {
   allProjects: any = []; // Speichert die Daten von allProjects in einem Array
   @ViewChild('projects') private subComponent: ElementRef<HTMLElement> //ermöglicht den Zugriff auf eine untergeordnete Komponente hier projects
   projectsElement: HTMLElement; // der Variable werden die HTML Elemente zugewiesen
+  
 
   constructor() { }
 
@@ -35,3 +36,5 @@ export class ProjectsComponent implements OnInit ,AfterViewInit {
   }
 
 }
+
+

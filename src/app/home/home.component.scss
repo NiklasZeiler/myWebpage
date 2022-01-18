@@ -4,17 +4,16 @@
     height: 100vh;
     overflow: hidden;
 
-
     #typed-strings {
         p {
             color: white;
-            font-size: 80px;
+            font-size: clamp(20px, 10vw, 75px);
         }
     }
 
     #typed {
         color: white;
-        font-size: 75px;
+        font-size: clamp(20px, 10vw, 75px);
         font-weight: 600;
 
         .colored {
@@ -25,10 +24,10 @@
     button {
         margin-top: 50px;
         height: 70px;
-        width: 280px;
+        width: clamp(120px, 10vw, 280px);
         background-color: unset;
         cursor: pointer;
-        font-size: 20px;
+        font-size: clamp(5px, 5vw, 20px);
         border-style: none;
     }
 
@@ -104,7 +103,7 @@
         border: 2px solid white;
         position: absolute;
         right: 10px;
-        bottom: 290px;
+        bottom: 160px;
         border-radius: 50px;
     }
     .scroll-down-right::before,
@@ -124,12 +123,10 @@
     .scroll-down-right::before {
         top: 30%;
         animation-delay: 0.3s;
-        /* animation: scroll-down 1s ease-in-out infinite; */
     }
 
     @keyframes scroll-down-right {
         0% {
-            /* top:20%; */
             opacity: 0;
         }
         30% {
@@ -148,8 +145,7 @@
         width: 30px;
         border: 2px solid white;
         position: absolute;
-        // left: 145px;
-        bottom: 290px;
+        bottom: 160px;
         border-radius: 50px;
     }
     .scroll-down-left::before,
@@ -169,12 +165,10 @@
     .scroll-down-left::before {
         top: 30%;
         animation-delay: 0.3s;
-        /* animation: scroll-down 1s ease-in-out infinite; */
     }
 
     @keyframes scroll-down-left {
         0% {
-            /* top:20%; */
             opacity: 0;
         }
         30% {
@@ -187,5 +181,16 @@
             top: 90%;
             opacity: 0;
         }
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .scroll-down-right {
+        display: none;
+    }
+
+    .scroll-down-left {
+        left: 200px;
     }
 }

@@ -2,12 +2,13 @@
     <div class="projects">
         <div *ngFor="let project of allProjects; let i = index">
             <div (mouseover)="showCardSolo(i)" (mouseout)="hideCardSolo(i)" id="projectCard" class="project filter">
-                <img src="../../assets/img/projects/{{project.img}}">
+                <img src="../../assets/img/projects/{{ project.img }}">
                 <div id="card{{i}}" class="overlay_project hide card">
-                    <div class="project_title">{{project.name}}</div>
+                    <img src="../../assets/img/projects/{{ project.imgover }}">
+                    <!-- <div class="project_title">{{project.name}}</div>
                     <div class="project_description">{{project.description}}</div>
-                    <div class="project_type">{{project.type}}</div>
-                    <a href="{{project.url}}">Anschauen</a>
+                    <div class="project_type">{{project.type}}</div> -->
+                    <a href="{{ project.url }}" target="_blank">View</a>
                 </div>
             </div>
         </div>
