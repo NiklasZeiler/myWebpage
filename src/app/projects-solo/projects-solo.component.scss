@@ -28,7 +28,7 @@
             display: flex;
             justify-content: center;
             border-radius: 11px;
-            animation: scale 1s ease-in-out;
+            animation: scale 125ms ease-in-out;
 
             @keyframes scale {
                 from {
@@ -46,10 +46,11 @@
             height: 367.43px;
             object-fit: cover;
             border-radius: 11px;
+            filter: brightness(.5);
         }
 
         .projectSolo_type {
-            color: black;
+            color: white;
             font-size: 18px;
             text-align: center;
             font-weight: 400;
@@ -62,11 +63,12 @@
             font-weight: 700;
             margin-top: 60px;
             text-align: center;
+            background-color: rgba(225,225,225, 0.7);
         }
 
         .projectSolo_description {
             bottom: 100px;
-            color: black;
+            color: white;
             text-align: center;
             font-size: 18px;
             font-weight: 400;

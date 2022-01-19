@@ -6,14 +6,20 @@
         </span>
         <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
             Name
-            <input class="focus-visable" [formControl]="name" required placeholder="Name" />
-            <span class="border"></span>
+            <div class="animated_form">
+                <input class="input" [formControl]="name" required placeholder="Name" />
+                <label for="name" class="label"></label>
+            </div>
             Email
-            <input [formControl]="email" placeholder="email@example.com" required />
-            <span class="border"></span>
+            <div class="animated_form">
+                <input [formControl]="email" placeholder="email@example.com" required />
+                <label for="name" class="label"></label>
+            </div>
             Message
-            <textarea [formControl]="message" placeholder="Please type your message here" required></textarea>
-            <span class="border"></span>
+            <div class="animated_textarea">
+                <textarea [formControl]="message" placeholder="Please type your message here" required></textarea>
+                <label for="name" class="label"></label>
+            </div>
             <button [disabled]="isLoading" class="submit draw-border btn" type="submit">Submit</button>
         </form>
         <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
