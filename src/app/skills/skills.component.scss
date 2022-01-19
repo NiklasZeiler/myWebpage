@@ -8,6 +8,7 @@
 .skills {
     display: flex;
     flex-wrap: wrap;
+    opacity: .5;
 
     mat-card {
         width: 300px;
@@ -29,8 +30,7 @@
                 width: 24px;
                 height: 24px;
                 margin-right: 4px;
-                // opacity: 0.5;
-                filter:invert(16%) sepia(53%) saturate(6894%) hue-rotate(356deg) brightness(99%) contrast(79%);
+                filter: invert(16%) sepia(53%) saturate(6894%) hue-rotate(356deg) brightness(99%) contrast(79%);
             }
         }
     }
@@ -48,4 +48,13 @@
     opacity: 1;
 }
 
-
+.background {
+    .svg-background {
+        position: absolute;
+        top: 10%;
+        left: 38%;
+        width: 500px;
+        z-index: -5;
+        filter: invert(16%) sepia(53%) saturate(6894%) hue-rotate(356deg) brightness(99%) contrast(79%);
+    }
+}

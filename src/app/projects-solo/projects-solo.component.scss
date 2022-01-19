@@ -1,25 +1,4 @@
-.titles_projects {
-    display: flex;
-
-    span {
-        color: #e12323;
-        display: flex;
-        margin: 10px;
-        width: 128px;
-        height: 70px;
-        justify-content: center;
-        align-items: center;
-        font-size: 18px;
-        font-weight: 500;
-        cursor: pointer;
-
-        &:hover {
-            color: #2dfcd8;
-        }
-    }
-}
-
-.projects {
+.projectsSolo {
     display: flex;
     padding-bottom: 60px;
     justify-content: flex-start;
@@ -27,14 +6,20 @@
     flex-wrap: wrap;
     overflow: hidden;
 
-    .project {
+    .projectSolo {
         position: relative;
         width: clamp(80px, 80vw, 442.17px);
         height: 367.43px;
         margin: 20px 20px;
         border-radius: 11px;
 
-        .overlay_project {
+        .card_description {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .overlay_projectSolo {
             position: absolute;
             top: 0;
             bottom: 0;
@@ -63,31 +48,30 @@
             border-radius: 11px;
         }
 
-        // .project_title {
-        //     position: absolute;
-        //     color: #e12323;
-        //     font-size: 30px;
-        //     font-weight: 700;
-        //     margin-top: 60px;
-        //     text-align: center;
-        // }
+        .projectSolo_type {
+            color: black;
+            font-size: 18px;
+            text-align: center;
+            font-weight: 400;
+            margin-top: 20px;
+        }
 
-        // .project_description {
-        //     position: absolute;
-        //     bottom: 100px;
-        //     color: black;
-        //     text-align: center;
-        //     font-size: 18px;
-        //     font-weight: 400;
-        // }
+        .projectSolo_title {
+            color: #e12323;
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 60px;
+            text-align: center;
+        }
 
-        // .project_type {
-        //     color: black;
-        //     font-size: 18px;
-        //     text-align: center;
-        //     font-weight: 400;
-        //     margin-top: 20px;
-        // }
+        .projectSolo_description {
+            bottom: 100px;
+            color: black;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 150px;
+        }
 
         a {
             position: absolute;

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./imprint.component.scss']
 })
 export class ImprintComponent implements OnInit {
+  emailstring = "mailto:zeiler.niklas@outlook.de";
 
   constructor() { }
 

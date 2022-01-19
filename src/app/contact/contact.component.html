@@ -1,4 +1,4 @@
-<section class="contact_container container-formation">
+<section #contact id="contact" class="contact_container container-formation">
     <div class="headline_contact">
         <h2>Kontaktiere mich</h2>
         <span class="headline_email">Kontaktieren Sie mich über das untenstehende Formular oder per E-Mail an <br><a
@@ -16,5 +16,24 @@
             <span class="border"></span>
             <button [disabled]="isLoading" class="submit draw-border btn" type="submit">Submit</button>
         </form>
+        <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+            <div>
+                <input type="text" name="name" id="name" required [(ngModel)]="contact.name"
+                    placeholder="What is your name?" #name="ngModel">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="What is your email?" #email="ngModel"
+                    [(ngModel)]="contact.email">
+            </div>
+            <div>
+
+                <textarea rows="10" placeholder="What would you like to tell me?" #message="ngModel"
+                    required [(ngModel)]="contact.message" name="message"></textarea>
+            </div>
+            <div>
+                <button type="submit" [disabled]="!contactForm.form.valid">Submit</button>
+            </div>
+
+        </form> -->
     </div>
 </section>

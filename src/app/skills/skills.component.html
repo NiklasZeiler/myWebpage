@@ -1,13 +1,20 @@
 <section #skills class="skill-container container-formation-solo" id="skills">
     <div class="skills" *ngFor="let description of allDescriptions; let i = index">
+        <div class="background">
+            <img class="svg-background" style="opacity: 0;" src="{{ description.svg }}" alt="">
+        </div>
         <mat-card (mouseover)="showDescription(i)" (mouseout)="hideDescription(i)">
             <div class="headline-skills">
-                <img class="svg" style="opacity: .5"src="{{ description.svg }}" alt="">
+                <img class="svg" style="opacity: .5" src="{{ description.svg }}" alt="">
                 <h3>{{ description.name }}</h3>
             </div>
             <span class="description d-none">
                 {{ description.description }}
             </span>
+
         </mat-card>
+
     </div>
+
+
 </section>

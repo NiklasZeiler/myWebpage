@@ -12,12 +12,8 @@ export class SkillsComponent implements OnInit, AfterViewInit {
   @ViewChild('skills') private subComponent: ElementRef<HTMLDivElement>
   descriptionElement: HTMLDivElement;
 
-  // showText: boolean;
 
-
-  constructor() {
-    // this.showText = false;
-  }
+  constructor() { }
 
   ngOnInit(): void {
     allDescriptions.forEach((description) => {
@@ -33,12 +29,16 @@ export class SkillsComponent implements OnInit, AfterViewInit {
     this.descriptionElement.querySelectorAll('.description').item(index).classList.remove('d-none');
     this.descriptionElement.querySelectorAll('.headline-skills').item(index).classList.add('top');
     this.descriptionElement.querySelectorAll('.svg').item(index).setAttribute("style", "opacity: 1");
+    this.descriptionElement.querySelectorAll('.skills').item(index).setAttribute("style", "opacity: 1");
+    this.descriptionElement.querySelectorAll('.svg-background').item(index).setAttribute("style", "opacity: 1");
   }
 
   hideDescription(index: number) {
     this.descriptionElement.querySelectorAll('.description').item(index).classList.add('d-none');
     this.descriptionElement.querySelectorAll('.headline-skills').item(index).classList.remove('top');
     this.descriptionElement.querySelectorAll('.svg').item(index).setAttribute("style", "opacity: .5");
+    this.descriptionElement.querySelectorAll('.skills').item(index).setAttribute("style", "opacity: .5");
+    this.descriptionElement.querySelectorAll('.svg-background').item(index).setAttribute("style", "opacity: 0");
   }
 
 

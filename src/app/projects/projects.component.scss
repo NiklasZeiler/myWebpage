@@ -86,6 +86,12 @@
             margin: 20px 20px;
             border-radius: 11px;
 
+            .card_description {
+                position: absolute;
+                top: 0;
+                width: 100%;
+            }
+
             .overlay_project {
                 position: absolute;
                 top: 0;
@@ -114,32 +120,30 @@
                 object-fit: cover;
                 border-radius: 11px;
             }
+            
+            .project_type {
+                color: black;
+                font-size: 18px;
+                text-align: center;
+                font-weight: 400;
+                margin-top: 20px;
+            }
 
-            // .project_title {
-            //     position: absolute;
-            //     color: #e12323;
-            //     font-size: 30px;
-            //     font-weight: 700;
-            //     margin-top: 60px;
-            //     text-align: center;
-            // }
+            .project_title {
+                color: #e12323;
+                font-size: 30px;
+                font-weight: 700;
+                margin-top: 60px;
+                text-align: center;
+            }
 
-            // .project_description {
-            //     position: absolute;
-            //     bottom: 100px;
-            //     color: black;
-            //     text-align: center;
-            //     font-size: 18px;
-            //     font-weight: 400;
-            // }
-
-            // .project_type {
-            //     color: black;
-            //     font-size: 18px;
-            //     text-align: center;
-            //     font-weight: 400;
-            //     margin-top: 20px;
-            // }
+            .project_description {
+                color: black;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 150px;
+            }
 
             a {
                 position: absolute;
@@ -166,15 +170,3 @@
         }
     }
 }
-
-// @media screen and (max-width: 550px) {
-//     .fake-big {
-//         top: 130px !important;
-//     }
-// }
-
-// @media screen and (max-width: 820px) {
-//     .fake-big {
-//         top: -60px !important;
-//     }
-// }

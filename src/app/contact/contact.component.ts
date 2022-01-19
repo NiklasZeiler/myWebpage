@@ -10,6 +10,25 @@ import { HttpClient } from '@angular/common/http';
 export class ContactComponent {
   emailstring = "mailto:zeiler.niklas@outlook.de";
 
+  // contact = {
+  //   name: (<HTMLInputElement>document.getElementById('name')).value,
+  //   email: '',
+  //   message: '',
+  // };
+
+  // post = {
+  //   endPoint: 'http://www.niklas-zeiler/sendMail.php',
+
+  //   body: (payload: any) => JSON.stringify(payload),
+
+  //   options: {
+  //     headers: {
+  //       'Content-Type': 'text/plain',
+  //       responseType: 'text',
+  //     },
+  //   },
+  // };
+
   form: FormGroup;
   name: FormControl = new FormControl("", [Validators.required]);
   email: FormControl = new FormControl("", [Validators.required, Validators.email]);
@@ -18,6 +37,8 @@ export class ContactComponent {
   submitted: boolean = false;
   isLoading: boolean = false;
   responseMessage: string;
+
+  // constructor(private http: HttpClient) { }
 
   constructor(private formBuilder: FormBuilder, private http: HttpClient) {
     this.form = this.formBuilder.group({
@@ -34,13 +55,21 @@ export class ContactComponent {
       formData.append("name", this.form.get("name").value);
       formData.append("email", this.form.get("email").value);
       formData.append("message", this.form.get("message").value);
-      this.http.post("http://niklas-zeiler.developerakademie.com/niklaszeiler/assets/send_mail.php", formData).subscribe();
+      this.http.post("http://niklas-zeiler.de/send_mail.php", formData).subscribe();
       alert('Thanks for the message! I`ll get back to you soon!');
 
     }
     this.form.reset();
   }
-
-
-
+  // onSubmit(ngForm) {
+  //   if(ngForm.submittes && ngForm.form.valid) {
+  //     this.http
+  //       .post(this.post.endPoint, this.post.body(this.contact))
+  //       .subscribe({
+  //         next: (response) => console.log(response),
+  //         error: (error) => console.error(error),
+  //         complete: () => console.info('sendpost complete'),          
+  //       });
+  //   }
+  // }
 }
