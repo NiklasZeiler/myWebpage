@@ -5,7 +5,7 @@ export const allProjects = [
         img: 'lieferino.png',
         imgover: 'lieferino.png',
         type: 'JavaScript',
-        url: 'https://niklas-zeiler.de/Lieferando/index.html'
+        url: 'https://niklas-zeiler.de/Lieferino/index.html'
     },
     {
         name: 'Pokedex',

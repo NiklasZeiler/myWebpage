@@ -21,6 +21,7 @@
         margin-top: 8px;
         font-family: "Source Sans Pro", sans-serif;
 
+
         .headline-skills {
             display: flex;
             align-items: center;
@@ -50,9 +51,8 @@
 
 .svg-background {
     position: absolute;
-    top: 10%;
-    left: 38%;
-    width: 500px;
-    z-index: -5;
+    top: 20px;
+    left: 20px;
+    width: 300px;
     filter: invert(16%) sepia(53%) saturate(6894%) hue-rotate(356deg) brightness(99%) contrast(79%);
 }

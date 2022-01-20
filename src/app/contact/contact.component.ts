@@ -55,7 +55,7 @@ export class ContactComponent {
       formData.append("name", this.form.get("name").value);
       formData.append("email", this.form.get("email").value);
       formData.append("message", this.form.get("message").value);
-      this.http.post("http://niklas-zeiler.de/send_mail.php", formData).subscribe();
+      this.http.post("https://niklas-zeiler.de/send_mail.php", formData).subscribe();
       alert('Thanks for the message! I`ll get back to you soon!');
 
     }

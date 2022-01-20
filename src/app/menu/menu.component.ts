@@ -7,12 +7,21 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angula
 })
 export class MenuComponent implements OnInit {
 
+  menuIsOpen: boolean = false;
 
   constructor() { }
 
 
 
   ngOnInit(): void {
-  
+
   }
+
+  menuOpen() {
+    this.menuIsOpen = true;
+  }
+
+  // menuClose() {
+  //   this.menuIsOpen = false;
+  // }
 }
