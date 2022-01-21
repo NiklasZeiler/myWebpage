@@ -21,7 +21,7 @@ export class MenuComponent implements OnInit {
     this.menuIsOpen = true;
   }
 
-  // menuClose() {
-  //   this.menuIsOpen = false;
-  // }
+  menuClose() {
+    this.menuIsOpen = false;
+  }
 }

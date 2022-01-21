@@ -1,10 +1,10 @@
 <section #contact id="contact" class="contact_container container-formation">
     <div class="headline_contact">
         <h2>Contact me</h2>
-        <span class="headline_email">Contact me via the form below or by email to <br><a
-                [href]="emailstring" target="_top">zeiler.niklas@outlook.com</a>
+        <span class="headline_email">Contact me via the form below or by email to <br><a [href]="emailstring"
+                target="_top">zeiler.niklas@outlook.com</a>
         </span>
-        <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
+        <!-- <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
             Name
             <div class="animated_form">
                 <input class="input" [formControl]="name" required placeholder="Name" />
@@ -21,8 +21,8 @@
                 <label for="name" class="label"></label>
             </div>
             <button [disabled]="isLoading" class="submit draw-border btn" type="submit">Submit</button>
-        </form>
-        <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        </form> -->
+        <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
             <div>
                 <input type="text" name="name" id="name" required [(ngModel)]="contact.name"
                     placeholder="What is your name?" #name="ngModel">
@@ -33,13 +33,12 @@
             </div>
             <div>
 
-                <textarea rows="10" placeholder="What would you like to tell me?" #message="ngModel"
-                    required [(ngModel)]="contact.message" name="message"></textarea>
+                <textarea rows="10" placeholder="What would you like to tell me?" #message="ngModel" required
+                    [(ngModel)]="contact.message" name="message"></textarea>
             </div>
             <div>
                 <button type="submit" [disabled]="!contactForm.form.valid">Submit</button>
             </div>
-
-        </form> -->
+        </form>
     </div>
 </section>

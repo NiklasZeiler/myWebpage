@@ -31,8 +31,8 @@
 
 <input type="checkbox" id="active">
 <label for="active" class="menu-btn">
-    <mat-icon (click)="menuOpen()">menu</mat-icon>
-    <mat-icon *ngIf="menuIsOpen">close</mat-icon>
+    <mat-icon *ngIf="!menuIsOpen" (click)="menuOpen()">menu</mat-icon>
+    <mat-icon *ngIf="menuIsOpen" (click)="menuClose()">close</mat-icon>
 </label>
 <div class="wrapper">
     <!-- <button mat-icon-button class="close-btn">
