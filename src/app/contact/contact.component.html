@@ -4,7 +4,7 @@
         <span class="headline_email">Contact me via the form below or by email to <br><a [href]="emailstring"
                 target="_top">zeiler.niklas@outlook.com</a>
         </span>
-        <!-- <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
+        <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
             Name
             <div class="animated_form">
                 <input class="input" [formControl]="name" required placeholder="Name" />
@@ -12,7 +12,7 @@
             </div>
             Email
             <div class="animated_form">
-                <input [formControl]="email" placeholder="email@example.com" required />
+                <input [formControl]="email" placeholder="Please type your e-mail" required />
                 <label for="name" class="label"></label>
             </div>
             Message
@@ -21,24 +21,24 @@
                 <label for="name" class="label"></label>
             </div>
             <button [disabled]="isLoading" class="submit draw-border btn" type="submit">Submit</button>
-        </form> -->
-        <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        </form>
+        <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
             <div>
-                <input type="text" name="name" id="name" required [(ngModel)]="contact.name"
-                    placeholder="What is your name?" #name="ngModel">
+                <label for="name">Name</label>
+                <input [(ngModel)]="contact.name" type="text" #name="ngModel" name="name" required>
             </div>
             <div>
-                <input type="email" name="email" placeholder="What is your email?" #email="ngModel"
-                    [(ngModel)]="contact.email">
+                <label for="email">E-Mail</label> 
+                <input [(ngModel)]="contact.email" #email="ngModel" type="email" name="email" required>
             </div>
             <div>
-
-                <textarea rows="10" placeholder="What would you like to tell me?" #message="ngModel" required
-                    [(ngModel)]="contact.message" name="message"></textarea>
+                message">Message</label>
+                <textarea [(ngModel)]="contact.message" #message="ngModel" name="message" cols="30" rows="10"
+                    required></textarea>
             </div>
             <div>
                 <button type="submit" [disabled]="!contactForm.form.valid">Submit</button>
             </div>
-        </form>
+        </form> -->
     </div>
 </section>
