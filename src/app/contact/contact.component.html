@@ -20,25 +20,7 @@
                 <textarea [formControl]="message" placeholder="Please type your message here" required></textarea>
                 <label for="name" class="label"></label>
             </div>
-            <button [disabled]="isLoading" class="submit draw-border btn" type="submit">Submit</button>
+            <button class="submit draw-border btn" type="submit">Submit</button>
         </form>
-        <!-- <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
-            <div>
-                <label for="name">Name</label>
-                <input [(ngModel)]="contact.name" type="text" #name="ngModel" name="name" required>
-            </div>
-            <div>
-                <label for="email">E-Mail</label> 
-                <input [(ngModel)]="contact.email" #email="ngModel" type="email" name="email" required>
-            </div>
-            <div>
-                message">Message</label>
-                <textarea [(ngModel)]="contact.message" #message="ngModel" name="message" cols="30" rows="10"
-                    required></textarea>
-            </div>
-            <div>
-                <button type="submit" [disabled]="!contactForm.form.valid">Submit</button>
-            </div>
-        </form> -->
     </div>
 </section>

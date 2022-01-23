@@ -10,24 +10,6 @@ import { HttpClient } from '@angular/common/http';
 export class ContactComponent {
   emailstring = "mailto:zeiler.niklas@outlook.de";
 
-  // contact = {
-  //   name: '',
-  //   email: '',
-  //   message: '',
-  // };
-
-  // post = {
-  //   endPoint: 'https://www.niklas-zeiler.de/sendMail.php',
-
-  //   body: (payload: any) => JSON.stringify(payload),
-
-  //   options: {
-  //     headers: {
-  //       'Content-Type': 'text/plain',
-  //       responseType: 'text',
-  //     },
-  //   },
-  // };
 
   form: FormGroup;
   name: FormControl = new FormControl("", [Validators.required]);
@@ -38,22 +20,6 @@ export class ContactComponent {
   isLoading: boolean = false;
   responseMessage: string;
 
-  // constructor(private http: HttpClient) { }
-  // ngOnInit(): void { }
-
-
-  // onSubmit(ngForm: any) {
-  //   if (ngForm.submitted
-  //    && ngForm.form.valid) {
-  //     this.http
-  //       .post(this.post.endPoint, this.post.body(this.contact))
-  //       .subscribe({
-  //         next: (response) => console.log(response),
-  //         error: (error) => console.error(error),
-  //         complete: () => console.info('sendpost complete'),
-  //       });
-  //   }
-  // }
 
   constructor(private formBuilder: FormBuilder, private http: HttpClient) {
     this.form = this.formBuilder.group({
@@ -63,18 +29,24 @@ export class ContactComponent {
     });
   }
   OnSubmit() {
-
+    console.log(this.form);
     if (this.form.status == "VALID") {
-      this.form.disable();
-      let formData: any = new FormData();
-      formData.append("name", this.form.get("name").value);
-      formData.append("email", this.form.get("email").value);
-      formData.append("message", this.form.get("message").value);
-      this.http.post("https://niklas-zeiler.de/send_mail.php", formData, {responseType: 'text'}).subscribe();
-      alert('Thanks for the message! I`ll get back to you soon!');
+      // let formData: any = new FormData();
+      // formData.append("name", this.form.get("name").value);
+      // formData.append("email", this.form.get("email").value);
+      // formData.append("message", this.form.get("message").value);
+      this.http.post("https://niklas-zeiler.de/send_mail.php", this.form.value, { responseType: 'text' })
+        .subscribe(
+          {
+            next: (result) => { console.log(result) },
+            error: (error) => { console.error(error) },
+            complete: () => { console.log("POST OBSERVABLE COMPLETE") }
+          }
+        );
+      // alert('Thanks for the message! I`ll get back to you soon!');
 
     }
-    this.form.reset();
+    // this.form.reset();
   }
 
 }
