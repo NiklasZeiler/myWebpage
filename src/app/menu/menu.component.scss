@@ -221,7 +221,7 @@ input[type="checkbox"] {
 }
 
 .menu-btn {
-    position: absolute;
+    position: fixed;
     z-index: 999;
     right: 20px;
     top: 20px;
@@ -232,15 +232,17 @@ input[type="checkbox"] {
     border-radius: 50%;
     font-size: 20px;
     color: #fff;
-    cursor: pointer;
     background: #1c1c1c;
     transition: all 0.3s ease-in-out;
     display: none;
     justify-content: center;
+    cursor: unset;
 }
 
 .mat-icon {
     width: unset;
+    position: fixed;
+    cursor: pointer;
 }
 
 .material-icons {

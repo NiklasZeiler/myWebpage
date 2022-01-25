@@ -4,9 +4,9 @@
             <div (mouseover)="showCardSolo(i)" (mouseout)="hideCardSolo(i)" id="projectCard" class="projectSolo">
                 <img src="assets/img/projects/{{ project.img }}">
                 <div class="card_description">
-                    <div class="projectSolo_type">{{project.type}}</div>
-                    <div class="projectSolo_title">{{project.name}}</div>
-                    <div class="projectSolo_description">{{project.description}}</div>
+                    <div class="projectSolo_type">{{ project.type }}</div>
+                    <div class="projectSolo_title">{{ project.name }}</div>
+                    <div class="projectSolo_description">{{ project.description }}</div>
                 </div>
                 <div id="card{{i}}" class="overlay_projectSolo hide card">
                     <img src="assets/img/projects/{{ project.imgover }}">

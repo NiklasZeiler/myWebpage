@@ -34,7 +34,7 @@ export const allProjects = [
     },
     {
         name: 'Ring of fire',
-        description: 'Card gamee created with Angular and firebase',
+        description: 'Card game created with Angular and firebase',
         img: 'ringoffire.png',
         imgover: 'ringoffire.png',
         type: 'Angular & Firebase',

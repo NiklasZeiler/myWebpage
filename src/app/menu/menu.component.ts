@@ -17,11 +17,21 @@ export class MenuComponent implements OnInit {
 
   }
 
-  menuOpen() {
+  menuOpenBtn() {
     this.menuIsOpen = true;
   }
 
-  menuClose() {
+  menuCloseBtn() {
     this.menuIsOpen = false;
+  }
+
+  closeResponseMenu() {
+    (<HTMLElement>document.getElementById('wrapper')).classList.add('hide');
+    this.menuIsOpen = false;
+  }
+
+  removeHide() {
+    (<HTMLElement>document.getElementById('wrapper')).classList.remove('hide');
+    this.menuIsOpen = true;
   }
 }

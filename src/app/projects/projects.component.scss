@@ -9,10 +9,8 @@
     .fake-big {
         position: absolute;
         top: clamp(-175px, -10vw, 130px);
-        // top: -175px;
         z-index: -1;
         font-size: clamp(10px, 37vw, 665px);
-        // font-size: 665px;
         color: rgba(255, 255, 255, 0.04);
     }
 
@@ -24,27 +22,6 @@
         margin-bottom: 80px;
         color: white;
         margin-block-end: 30px;
-
-        &:hover {
-            background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, white, transparent, transparent);
-            -webkit-background-clip: text;
-            background-clip: text;
-            animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear 2000ms;
-
-            @keyframes reveal {
-                80% {
-                    letter-spacing: 8px;
-                }
-                100% {
-                    background-size: 300% 300%;
-                }
-            }
-            @keyframes glow {
-                40% {
-                    text-shadow: 0 0 8px white;
-                }
-            }
-        }
     }
 
     p {

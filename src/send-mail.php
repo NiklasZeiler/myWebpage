@@ -1,14 +1,29 @@
 <?php
-    if (isset($_REQUEST['email'])) {
-        $name = $_REQUEST['name'];
-        $email = $_REQUEST['email'];
-        $message = $_REQUEST['message'];
-        mail("kontakt@niklas-zeiler.de", $name, $message, "From:" . $email);
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-        echo "Thank you! I will answer your promise soon.";
-        
-    } else {
-        echo "Error: Please load page new.";
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+if(isset($_POST["submit"])) {
+    $mail = new PHPMailer();
+    $mail->isSMTP();
+    $mail->Host = "smtp.gmail.com";
+    $mail->SMTPAuth = true;
+    $mail->Username = "zeiler1989.nz@gmail.com";
+    $mail->Password = "jzsybbzyxewvxdll";
+
+    $mail->setFrom("zeiler1989.nz@gmail.com", "Kontaktformular");
+    $mail->addAddress("kontakt@niklas-zeiler.de", "kontakt");
+
+    $mail->Subject = "Test";
+    $mail->Body = $_POST["message"];
+
+    if($mail->send()) {
+        echo "Deine Email wurde erfolgreich verschickt.";
+    }else {
+        echo "Es gab einen Fehler".$mail->ErrorInfo;
     }
-
+}
 ?>
