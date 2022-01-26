@@ -15,11 +15,6 @@ export class ContactComponent {
   name: FormControl = new FormControl("", [Validators.required]);
   email: FormControl = new FormControl("", [Validators.required, Validators.email]);
   message: FormControl = new FormControl("", [Validators.required]);
-  // honeypot: FormControl = new FormControl(""); // we will use this to prevent spam
-  // submitted: boolean = false;
-  // isLoading: boolean = false;
-  // responseMessage: string;
-
 
   constructor(private formBuilder: FormBuilder, private http: HttpClient) {
     this.form = this.formBuilder.group({
@@ -31,7 +26,8 @@ export class ContactComponent {
   OnSubmit() {
     console.log(this.form);
     if (this.form.status == "VALID") {
-      this.http.post("https://niklas-zeiler.de/send_mail.php", this.form.value, { responseType: 'text' })
+      this.form.disable();
+      this.http.post("https://niklas-zeiler.de/sendMail.php", this.form.value)
         .subscribe(
           {
             next: (result) => { console.log(result) },
@@ -39,8 +35,6 @@ export class ContactComponent {
             complete: () => { console.log("POST OBSERVABLE COMPLETE") }
           }
         );
-      // alert('Thanks for the message! I`ll get back to you soon!');
-
     }
 
   }

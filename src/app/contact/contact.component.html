@@ -4,10 +4,10 @@
         <span class="headline_email">Contact me via the form below or by email to <br><a [href]="emailstring"
                 target="_top">zeiler.niklas@outlook.com</a>
         </span>
-        <form class="contact" [formGroup]="form" method="POST" (ngSubmit)="OnSubmit()">
+        <form class="contact" [formGroup]="form" (ngSubmit)="OnSubmit()">
             Name
             <div class="animated_form">
-                <input class="input" name="name" [formControl]="name" required placeholder="Please enter your name"/>
+                <input class="input" name="name" [formControl]="name" required placeholder="Please enter your name" />
                 <label for="name" class="label"></label>
             </div>
             Email
@@ -17,10 +17,11 @@
             </div>
             Message
             <div class="animated_textarea">
-                <textarea [formControl]="message" name="message" placeholder="Please type your message here" required></textarea>
+                <textarea [formControl]="message" name="message" placeholder="Please type your message here"
+                    required></textarea>
                 <label for="name" class="label"></label>
             </div>
-            <button class="submit draw-border btn" type="submit">Submit</button>
-        </form>        
+            <button class="submit draw-border btn" type="submit">Send mail</button>
+        </form>
     </div>
 </section>

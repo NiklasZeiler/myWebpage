@@ -27,7 +27,7 @@ export class AboutSoloComponent implements OnInit {
       });
     }, 8000);
 
-    // clearInterval()
+
 
   }
 }
