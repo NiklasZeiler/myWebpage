@@ -7,7 +7,8 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit {
+
   emailstring = "mailto:zeiler.niklas@outlook.de";
 
 
@@ -23,11 +24,13 @@ export class ContactComponent {
       message: this.message,
     });
   }
+  ngOnInit(): void {  }
+
   OnSubmit() {
     console.log(this.form);
     if (this.form.status == "VALID") {
       this.form.disable();
-      this.http.post("https://niklas-zeiler.de/sendMail.php", this.form.value)
+      this.http.post("https://niklas-zeiler.de/sendMail.php", this.form.value, {responseType: 'text'})
         .subscribe(
           {
             next: (result) => { console.log(result) },
@@ -38,5 +41,4 @@ export class ContactComponent {
     }
 
   }
-
 }

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from "@angular/common/http";
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
@@ -20,7 +19,12 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { AboutSoloComponent } from './about-solo/about-solo.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
+
+
+
+
 
 
 
@@ -40,20 +44,18 @@ import { ContactComponent } from './contact/contact.component';
     SkillsComponent,
     ContactComponent,
 
-
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
     MatCardModule,
-    HttpClientModule,
     FormsModule,
-    ReactiveFormsModule,
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
+    HttpClientModule,
+    ReactiveFormsModule
 
   ],
 

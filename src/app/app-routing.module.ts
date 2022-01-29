@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutSoloComponent } from './about-solo/about-solo.component';
-import { ContactComponent } from './contact/contact.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { ProjectsSoloComponent } from './projects-solo/projects-solo.component';
@@ -15,7 +14,6 @@ const routes: Routes = [
   {path: 'skills', component: SkillsComponent},
   {path: 'imprint', component: ImprintComponent},
   {path: 'privacy', component: PrivacyComponent},
-  // {path: 'contact-solo', component: ContactSoloComponent}
 ];
 
 @NgModule({
