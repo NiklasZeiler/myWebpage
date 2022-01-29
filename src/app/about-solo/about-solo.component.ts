@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutSoloComponent implements OnInit {
 
-  images: any[] = ['profilbild.jpg', 'profilbildsp.jpg', 'profilbildsw.jpg'];
+  images: any[] = ['profilbildsw.jpg', 'profilbild.jpg', 'profilbildsp.jpg'];
   currentImage = 0;
   showImage = true;
 
@@ -26,8 +26,5 @@ export class AboutSoloComponent implements OnInit {
         this.showImage = true;
       });
     }, 8000);
-
-
-
   }
 }
