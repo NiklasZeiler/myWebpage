@@ -31,7 +31,7 @@
 
 <input type="checkbox" id="active">
 <label for="active" class="menu-btn">
-    <mat-icon *ngIf="!menuIsOpen" (click)="menuOpenBtn(); removeHide()">menu</mat-icon>
+    <mat-icon *ngIf="!menuIsOpen" (click)="removeHide()">menu</mat-icon>
     <mat-icon *ngIf="menuIsOpen" (click)="menuCloseBtn()">close</mat-icon>
 </label>
 <div class="wrapper hide" id="wrapper">

@@ -17,9 +17,10 @@ export class MenuComponent implements OnInit {
 
   }
 
-  menuOpenBtn() {
-    this.menuIsOpen = true;
-  }
+  // menuOpenBtn() {
+  //   this.menuIsOpen = true;
+  //   this.removeHide();
+  // }
 
   menuCloseBtn() {
     this.menuIsOpen = false;
@@ -27,7 +28,9 @@ export class MenuComponent implements OnInit {
 
   closeResponseMenu() {
     (<HTMLElement>document.getElementById('wrapper')).classList.add('hide');
+    // (<HTMLElement>document.getElementById('active')).classList.add('hide');
     this.menuIsOpen = false;
+
   }
 
   removeHide() {

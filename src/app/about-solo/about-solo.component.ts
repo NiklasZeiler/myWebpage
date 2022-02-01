@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutSoloComponent implements OnInit {
 
-  images: any[] = ['profilbildsw.jpg', 'profilbild.jpg', 'profilbildsp.jpg'];
+  images: any[] = ['profilbildsw.jpg', 'profilbild.jpg', 'profilbildfa.jpg'];
   currentImage = 0;
   showImage = true;
 
@@ -18,13 +18,16 @@ export class AboutSoloComponent implements OnInit {
   }
 
   updateImage() {
-    setInterval(() => {
+    let showInterval = setInterval(() => {
+      if(this.currentImage == this.images.length -1) {
+        clearInterval(showInterval);
+      }
       this.currentImage++;
       this.currentImage = this.currentImage % this.images.length;
       this.showImage = false;
       setTimeout(() => {
         this.showImage = true;
       });
-    }, 8000);
+    }, 20000);
   }
 }
