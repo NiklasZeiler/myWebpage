@@ -24,14 +24,6 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
     this.projectsElement = this.subComponent.nativeElement;
   }
 
-  showCard(index: number) {
-    this.projectsElement.querySelectorAll('.card').item(index).classList.remove('hide');
-  }
-
-  hideCard(index: number) {
-    this.projectsElement.querySelectorAll('.card').item(index).classList.add('hide');
-  }
-
 }
 
 

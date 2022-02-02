@@ -1,16 +1,11 @@
 :focus {
     outline: none;
 }
-.contact_container {
+.contact-solo_container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    min-height: 0;
-    overflow: hidden;
-    align-items: flex-start;
+    align-items: center;
     color: white;
-    width: clamp(20px, 90vw, 700px);
-    margin-bottom: 25px;
 
     h2 {
         font-weight: 500;

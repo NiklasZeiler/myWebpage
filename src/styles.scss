@@ -22,7 +22,7 @@ body {
 
 .container-formation-solo {
     position: relative;
-    padding: 0 50px 0 150px;
+    padding: 40px 50px 0 150px;
     min-height: 100vh;
 }
 
@@ -42,6 +42,10 @@ body {
 
 .cdk-overlay-container {
     display: none;
+}
+
+.z-index {
+    z-index: 99;
 }
 
 @media screen and (max-width: 1000px) {

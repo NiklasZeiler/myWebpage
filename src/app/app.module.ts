@@ -21,6 +21,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
+import { ContactSoloComponent } from './contact-solo/contact-solo.component';
 
 
 
@@ -43,6 +44,7 @@ import { ContactComponent } from './contact/contact.component';
     AboutSoloComponent,
     SkillsComponent,
     ContactComponent,
+    ContactSoloComponent,
 
   ],
   imports: [

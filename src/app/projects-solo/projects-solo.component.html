@@ -1,14 +1,14 @@
 <div #projectsSolo id="projectsSolo" class="work_container container-formation-solo">
     <div class="projectsSolo">
         <div *ngFor="let project of allProjects; let i = index">
-            <div (mouseover)="showCardSolo(i)" (mouseout)="hideCardSolo(i)" id="projectCard" class="projectSolo">
+            <div id="projectCard" class="projectSolo">
                 <img src="assets/img/projects/{{ project.img }}">
                 <div class="card_description">
                     <div class="projectSolo_type">{{ project.type }}</div>
                     <div class="projectSolo_title">{{ project.name }}</div>
                     <div class="projectSolo_description">{{ project.description }}</div>
                 </div>
-                <div id="card{{i}}" class="overlay_projectSolo hide card">
+                <div id="card{{i}}" class="overlay_projectSolo card">
                     <img src="assets/img/projects/{{ project.imgover }}">
                     <a href="{{ project.url }}" target="_blank">View</a>
                 </div>

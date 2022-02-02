@@ -17,24 +17,21 @@ export class MenuComponent implements OnInit {
 
   }
 
-  // menuOpenBtn() {
-  //   this.menuIsOpen = true;
-  //   this.removeHide();
-  // }
+  menuOpenBtn() {
+    this.menuIsOpen = true;
+    (<HTMLElement>document.getElementById('wrapper')).classList.add('z-index');
+  }
 
   menuCloseBtn() {
     this.menuIsOpen = false;
+    (<HTMLElement>document.getElementById('wrapper')).classList.remove('fade');
+    (<HTMLElement>document.getElementById('wrapper')).classList.remove('z-index');
+
   }
 
   closeResponseMenu() {
-    (<HTMLElement>document.getElementById('wrapper')).classList.add('hide');
-    // (<HTMLElement>document.getElementById('active')).classList.add('hide');
     this.menuIsOpen = false;
+    (<HTMLElement>document.getElementById('wrapper')).classList.remove('z-index');
 
-  }
-
-  removeHide() {
-    (<HTMLElement>document.getElementById('wrapper')).classList.remove('hide');
-    this.menuIsOpen = true;
   }
 }

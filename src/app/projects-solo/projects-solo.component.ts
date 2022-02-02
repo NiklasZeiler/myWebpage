@@ -23,13 +23,4 @@ export class ProjectsSoloComponent implements OnInit, AfterViewInit {
     this.projectsSoloElement = this.subComponentSolo.nativeElement;
   }
 
-  showCardSolo(index: number) {
-    this.projectsSoloElement.querySelectorAll('.card').item(index).classList.remove('hide');    
-  }
-
-  hideCardSolo(index: number) {
-    this.projectsSoloElement.querySelectorAll('.card').item(index).classList.add('hide');
-
-  }
-
 }

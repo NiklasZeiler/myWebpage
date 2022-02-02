@@ -14,6 +14,21 @@
         border-radius: 11px;
         box-shadow: 0px 0px 10px 0px #e12323bf;
 
+        &:hover .overlay_projectSolo {
+            opacity: 1;
+            animation: scale 325ms ease-in-out;
+
+            @keyframes scale {
+                from {
+                    transform: scale(0);
+                }
+
+                to {
+                    transform: scale(1);
+                }
+            }
+        }
+
         .card_description {
             position: absolute;
             top: 0;
@@ -29,17 +44,7 @@
             display: flex;
             justify-content: center;
             border-radius: 11px;
-            animation: scale 325ms ease-in-out;
-
-            @keyframes scale {
-                from {
-                    transform: scale(0);
-                }
-
-                to {
-                    transform: scale(1);
-                }
-            }
+            opacity: 0;
         }
 
         img {
@@ -47,7 +52,7 @@
             height: 367.43px;
             object-fit: cover;
             border-radius: 11px;
-            filter: brightness(.5);
+            filter: brightness(0.5);
         }
 
         .projectSolo_type {
@@ -64,7 +69,7 @@
             font-weight: 700;
             margin-top: 60px;
             text-align: center;
-            background-color: rgba(225,225,225, 0.7);
+            background-color: rgba(225, 225, 225, 0.7);
         }
 
         .projectSolo_description {
