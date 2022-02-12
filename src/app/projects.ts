@@ -38,14 +38,14 @@ export const allProjects = [
         img: 'ringoffire.png',
         imgover: 'ringoffire.png',
         type: 'Angular & Firebase',
-        url: 'http://ring-of-fire-30a2e.web.app'
+        url: 'https://ring-of-fire-f4eb1.web.app/'
     },
-    {
-        name: 'Simple-CRM',
-        description: 'A Customer-Relationship-Management-System',
-        img: 'simple-crm.png',
-        imgover: 'simple-crm.png',
-        type: 'Angular & Firebase',
-        url: 'https://simple-crm-96370.firebaseapp.com/'
-    }
+    // {
+    //     name: 'Simple-CRM',
+    //     description: 'A Customer-Relationship-Management-System',
+    //     img: 'simple-crm.png',
+    //     imgover: 'simple-crm.png',
+    //     type: 'Angular & Firebase',
+    //     url: 'https://simple-crm-96370.firebaseapp.com/'
+    // }
 ];

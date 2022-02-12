@@ -11,9 +11,11 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
 
-
+  /**
+   * start typed headline 
+   */
   ngOnInit(): void {
-   let options = {
+    let options = {
       stringsElement: '#typed-strings',
       typeSpeed: 80,
       backSpeed: 0,

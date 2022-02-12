@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { MatDialog } from '@angular/material/dialog';
+import { SendMailDialogComponent } from '../send-mail-dialog/send-mail-dialog.component';
 
 @Component({
   selector: 'app-contact',
@@ -17,20 +19,23 @@ export class ContactComponent implements OnInit {
   email: FormControl = new FormControl("", [Validators.required, Validators.email]);
   message: FormControl = new FormControl("", [Validators.required]);
 
-  constructor(private formBuilder: FormBuilder, private http: HttpClient) {
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, public dialog: MatDialog) {
     this.form = this.formBuilder.group({
       name: this.name,
       email: this.email,
       message: this.message,
     });
   }
-  ngOnInit(): void {  }
+  ngOnInit(): void { }
 
+
+  /**
+    * Send the mail and reset form
+    */
   OnSubmit() {
     console.log(this.form);
     if (this.form.status == "VALID") {
-      this.form.disable();
-      this.http.post("https://niklas-zeiler.de/sendMail.php", this.form.value, {responseType: 'text'})
+      this.http.post("https://niklas-zeiler.de/sendMail.php", this.form.value, { responseType: 'text' })
         .subscribe(
           {
             next: (result) => { console.log(result) },
@@ -39,6 +44,13 @@ export class ContactComponent implements OnInit {
           }
         );
     }
+    this.form.reset();
+  }
 
+  /**
+   * Open dialog mail is sent
+   */
+  openDialog() {
+    this.dialog.open(SendMailDialogComponent);
   }
 }

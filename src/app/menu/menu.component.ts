@@ -17,11 +17,19 @@ export class MenuComponent implements OnInit {
 
   }
 
+
+  /**
+   * set menuIsOpen to true, open menu and add class z-index to wrapper
+   */
   menuOpenBtn() {
     this.menuIsOpen = true;
     (<HTMLElement>document.getElementById('wrapper')).classList.add('z-index');
   }
 
+
+  /**
+   * set menuIsOpen to false, close menu and remove class fade and z-index from wrapper
+   */
   menuCloseBtn() {
     this.menuIsOpen = false;
     (<HTMLElement>document.getElementById('wrapper')).classList.remove('fade');
@@ -29,6 +37,10 @@ export class MenuComponent implements OnInit {
 
   }
 
+
+  /**
+   * set menuIsOpen to false, close responsive menu and remove class z-index from wrapper
+   */
   closeResponseMenu() {
     this.menuIsOpen = false;
     (<HTMLElement>document.getElementById('wrapper')).classList.remove('z-index');

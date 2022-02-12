@@ -15,16 +15,33 @@ export class SkillsComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
+
+/**
+ * load skills 
+ */
   ngOnInit(): void {
     allDescriptions.forEach((description) => {
       this.allDescriptions.push(Object.assign({}, description));
     });
   }
 
+
+/**
+ * show skills
+ */
   ngAfterViewInit() {
     this.descriptionElement = this.subComponent.nativeElement;
   }
 
+
+/**
+ * 
+ * @param index number from element in json
+ * add class top 
+ * remove class d-none
+ * change style opacity
+ * remove style hidden
+ */
   showDescription(index: number) {
     this.descriptionElement.querySelectorAll('.description').item(index).classList.remove('d-none');
     this.descriptionElement.querySelectorAll('.headline-skills').item(index).classList.add('top');
@@ -34,6 +51,15 @@ export class SkillsComponent implements OnInit, AfterViewInit {
     this.descriptionElement.querySelectorAll('.svg-background').item(index).setAttribute("style", "opacity: .2");
   }
 
+
+/**
+ * 
+ * @param index number from element in json
+ * add class d.none
+ * remove class top
+ * change style opacity
+ * add class hidden
+ */
   hideDescription(index: number) {
     this.descriptionElement.querySelectorAll('.description').item(index).classList.add('d-none');
     this.descriptionElement.querySelectorAll('.headline-skills').item(index).classList.remove('top');

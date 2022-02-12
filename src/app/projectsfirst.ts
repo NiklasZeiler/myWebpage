@@ -21,6 +21,6 @@ export const allProjectsFirst = [
         img: 'ringoffire.png',
         imgover: 'ringoffire.png',
         type: 'Angular & Firebase',
-        url: 'http://ring-of-fire-30a2e.web.app'
+        url: 'https://ring-of-fire-f4eb1.web.app/'
     }
 ];

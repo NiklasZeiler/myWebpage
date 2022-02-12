@@ -40,10 +40,6 @@ body {
     position: unset;
 }
 
-.cdk-overlay-container {
-    display: none;
-}
-
 .z-index {
     z-index: 99;
 }
@@ -55,10 +51,6 @@ body {
 
     .container-formation-solo {
         padding: 0 50px 0 40px;
-    }
-
-    .cdk-overlay-container {
-        display: block;
     }
 }
 

@@ -5,6 +5,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,12 +23,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { ContactSoloComponent } from './contact-solo/contact-solo.component';
-
-
-
-
-
-
+import { SendMailDialogComponent } from './send-mail-dialog/send-mail-dialog.component';
 
 
 @NgModule({
@@ -45,6 +41,7 @@ import { ContactSoloComponent } from './contact-solo/contact-solo.component';
     SkillsComponent,
     ContactComponent,
     ContactSoloComponent,
+    SendMailDialogComponent,
 
   ],
   imports: [
@@ -57,7 +54,8 @@ import { ContactSoloComponent } from './contact-solo/contact-solo.component';
     MatIconModule,
     MatMenuModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatDialogModule
 
   ],
 

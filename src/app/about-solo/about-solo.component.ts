@@ -13,13 +13,21 @@ export class AboutSoloComponent implements OnInit {
 
   constructor() { }
 
+
+  /**
+   * start function upadateImage() if user is on this side
+   */
   ngOnInit(): void {
     this.updateImage();
   }
 
+
+  /**
+   * show a new image in a intervall and stops after one circle
+   */
   updateImage() {
     let showInterval = setInterval(() => {
-      if(this.currentImage == this.images.length -1) {
+      if (this.currentImage == this.images.length - 1) {
         clearInterval(showInterval);
       }
       this.currentImage++;

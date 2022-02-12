@@ -13,12 +13,20 @@ export class ProjectsSoloComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
+
+  /**
+   * load projects 
+   */
   ngOnInit(): void {
     allProjects.forEach((project) => {
       this.allProjects.push(Object.assign({}, project));
     });
   }
 
+
+  /**
+   * show projects in html
+   */
   ngAfterViewInit() {//wird einmalig nach der initalisierung ausgeführt 
     this.projectsSoloElement = this.subComponentSolo.nativeElement;
   }

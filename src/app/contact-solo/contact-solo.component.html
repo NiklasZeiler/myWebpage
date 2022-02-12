@@ -21,7 +21,7 @@
                     required></textarea>
                 <label for="name" class="label"></label>
             </div>
-            <button class="submit draw-border btn" type="submit">Send mail</button>
+            <button (click)="openDialog()" [disabled]="!form.valid" class="submit draw-border btn" type="submit">Send mail</button>
         </form>
     </div>
 </section>
