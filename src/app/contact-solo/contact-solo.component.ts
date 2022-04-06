@@ -47,7 +47,7 @@ export class ContactSoloComponent implements OnInit {
     this.form.reset();
   }
 
-  
+
   /**
    * Open dialog mail is sent
    */

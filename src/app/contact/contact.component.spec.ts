@@ -1,4 +1,9 @@
+import { Overlay } from '@angular/cdk/overlay';
+import { HttpClient, HttpHandler } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormBuilder } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import { RouterModule } from '@angular/router';
 
 import { ContactComponent } from './contact.component';
 
@@ -8,9 +13,11 @@ describe('ContactComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContactComponent ]
+      imports: [RouterModule.forRoot([]), MatDialogModule],
+      declarations: [ContactComponent],
+      providers: [FormBuilder, HttpClient, HttpHandler, MatDialogModule, Overlay]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

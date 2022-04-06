@@ -29,11 +29,10 @@
 </nav>
 
 
-<!-- <input type="checkbox" id="active">
-<label for="active" class="menu-btn"> -->
+
 <mat-icon *ngIf="!menuIsOpen" (click)="menuOpenBtn()">menu</mat-icon>
 <mat-icon *ngIf="menuIsOpen" (click)="menuCloseBtn()">close</mat-icon>
-<!-- </label> -->
+
 <div [ngClass]="menuIsOpen ? 'fade' : 'open'" class="wrapper" id="wrapper">
     <div class="logo-responsive">
         <a href="#home" (click)="closeResponseMenu()"><img src="assets/img/Logo_white.png" alt="Logo"></a>
