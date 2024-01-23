@@ -76,10 +76,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "niklas-zeiler:build:production"
+              "buildTarget": "niklas-zeiler:build:production"
             },
             "development": {
-              "browserTarget": "niklas-zeiler:build:development"
+              "buildTarget": "niklas-zeiler:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -87,7 +87,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "niklas-zeiler:build"
+            "buildTarget": "niklas-zeiler:build"
           }
         },
         "test": {
