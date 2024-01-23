@@ -2,9 +2,9 @@
     <div class="fake-big">
         Work
     </div>
-    <h2>My work</h2>
+    <h2 i18n>My work</h2>
     <div class="titles_projects">
-        <p>Here you can find a small selection of my projects.<br> Please feel free to visit my <a
+        <p i18n>Here you can find a small selection of my projects.<br> Please feel free to visit my <a
                 routerLink="projects-solo">work</a> page to see more.</p>
     </div>
     <div class="projects">
@@ -16,9 +16,9 @@
                     <div class="project_title">{{ projectfirst.name }}</div>
                     <div class="project_description">{{ projectfirst.description }}</div>                    
                 </div>
-                <div id="card{{i}}" class="overlay_project card">
+                <div i18n id="card{{i}}" class="overlay_project card">
                     <img src="assets/img/projects/{{ projectfirst.imgover }}">
-                    <a href="{{ projectfirst.url }}" target="_blank">View</a>
+                    <a  href="{{ projectfirst.url }}" target="_blank">View</a>
                 </div>
             </div>
         </div>

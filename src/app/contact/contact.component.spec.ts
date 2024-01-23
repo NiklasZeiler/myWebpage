@@ -1,8 +1,8 @@
 import { Overlay } from '@angular/cdk/overlay';
 import { HttpClient, HttpHandler } from '@angular/common/http';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { UntypedFormBuilder } from '@angular/forms';
-import { MatLegacyDialogModule as MatDialogModule } from '@angular/material/legacy-dialog';
+import { FormBuilder } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
 import { RouterModule } from '@angular/router';
 
 import { ContactComponent } from './contact.component';
@@ -15,7 +15,7 @@ describe('ContactComponent', () => {
     await TestBed.configureTestingModule({
       imports: [RouterModule.forRoot([]), MatDialogModule],
       declarations: [ContactComponent],
-      providers: [UntypedFormBuilder, HttpClient, HttpHandler, MatDialogModule, Overlay]
+      providers: [FormBuilder, HttpClient, HttpHandler, MatDialogModule, Overlay]
     })
       .compileComponents();
   });

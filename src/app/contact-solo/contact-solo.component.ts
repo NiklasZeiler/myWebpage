@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
-import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { SendMailDialogComponent } from '../send-mail-dialog/send-mail-dialog.component';
 
 @Component({
@@ -14,12 +14,12 @@ export class ContactSoloComponent implements OnInit {
   emailstring = "mailto:zeiler.niklas@outlook.de";
 
 
-  form: UntypedFormGroup;
-  name: UntypedFormControl = new UntypedFormControl("", [Validators.required]);
-  email: UntypedFormControl = new UntypedFormControl("", [Validators.required, Validators.email]);
-  message: UntypedFormControl = new UntypedFormControl("", [Validators.required]);
+  form: FormGroup;
+  name: FormControl = new FormControl("", [Validators.required]);
+  email: FormControl = new FormControl("", [Validators.required, Validators.email]);
+  message: FormControl = new FormControl("", [Validators.required]);
 
-  constructor(private formBuilder: UntypedFormBuilder, private http: HttpClient, public dialog: MatDialog) {
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, public dialog: MatDialog) {
     this.form = this.formBuilder.group({
       name: this.name,
       email: this.email,

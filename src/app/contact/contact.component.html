@@ -1,27 +1,36 @@
 <section id="contact" class="contact_container container-formation">
     <div class="headline_contact">
-        <h2>Contact me</h2>
-        <span class="headline_email">Contact me via the form below or by email to <br><a [href]="emailstring"
+        <h2 i18n>Contact me</h2>
+        <span i18n class="headline_email">Contact me via the form below or by email to <br><a [href]="emailstring"
                 target="_top">zeiler.niklas&#64;outlook.com</a>
         </span>
         <form class="contact" [formGroup]="form" (ngSubmit)="OnSubmit()">
-            Name
+            <span i18n>Name</span>
             <div class="animated_form">
-                <input class="input" name="name" [formControl]="name" required placeholder="Please enter your name" />
+                <input class="input" name="name" [formControl]="name" required i18n-placeholder
+                    placeholder="Please enter your name" />
                 <label for="name" class="label"></label>
             </div>
-            Email
+            <span i18n>Email</span>
             <div class="animated_form">
-                <input [formControl]="email" name="email" placeholder="Please type your e-mail" required />
+                <input [formControl]="email" name="email" i18n-placeholder placeholder="Please type your e-mail"
+                    required />
                 <label for="name" class="label"></label>
             </div>
-            Message
+            <span i18n>Message</span>
             <div class="animated_textarea">
-                <textarea [formControl]="message" name="message" placeholder="Please type your message here"
-                    required></textarea>
+                <textarea [formControl]="message" name="message" i18n-placeholder
+                    placeholder="Please type your message here" required></textarea>
                 <label for="name" class="label"></label>
             </div>
-            <button (click)="openDialog()" [disabled]="!form.valid" class="submit draw-border btn" type="submit">Send mail</button>
+            <div class="container">
+                <div>
+                    <button i18n (click)="openDialog()" [disabled]="!form.valid" class="shrink-border"
+                        type="submit">Send
+                        mail</button>
+                </div>
+            </div>
+            <!-- <button (click)="openDialog()" [disabled]="!form.valid" class="submit draw-border btn" type="submit">Send mail</button> -->
         </form>
     </div>
 </section>

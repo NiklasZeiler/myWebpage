@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-GB" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6212045243017027205" datatype="html">
+        <source>My Story</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="198153115837330736" datatype="html">
+        <source>Who am I?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1571061323476541483" datatype="html">
+        <source>My name is Niklas Zeiler and I am a Front-End Developer.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9054728570847977047" datatype="html">
+        <source>What are my skills?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5213962656060917785" datatype="html">
+        <source>During my further education, I learned various front-end technologies such as HTML5, CSS3 and JavaScript. The framework Angular and the associated TypeScript are other technologies that I can use. I can also handle techniques such as Responsive Web Design. With object orientation, I have programmed a small game. Thanks to experienced software developers, I was able to constantly improve my skills and find and fix errors in code. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">10,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2489979977367470998" datatype="html">
+        <source>Why did I become a software developer?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3235110383760840733" datatype="html">
+        <source>For me, becoming a software developer was the next logical step. After working in the automotive industry for seven years and becoming more and more interested in programming, I decided to turn my passion into a profession. Some time ago, I started reading up on programming with the help of the literature and wrote my first small projects. Soon I realized that I could do this with professional support. When I became aware of the Developer Academy in 2021, I decided to train there to become a software developer. During this training, I built various projects from responsive websites to small business apps in a team or on my own.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">19,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6541147577409583805" datatype="html">
+        <source>What are my strengths?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3487119508230385122" datatype="html">
+        <source>Due to my previous work in a large car dealership, I can handle stress well and always find a solution. As a result, I also have a very high degree of initiative, which was additionally promoted by creating my projects. When working with several people, my ability to work in a team came in handy. My willingness to learn and my interest in solving new tasks are also among my strengths. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
+          <context context-type="linenumber">31,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8197921676324803850" datatype="html">
+        <source> About </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3562199946446423606" datatype="html">
+        <source>About me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5002961141797753355" datatype="html">
+        <source>Hi, my name is Niklas, I am a frontend developer. Thanks to my further education, I have already been able to realize several projects and expand my knowledge through experienced software developers. From them, I have continuously received suggestions to improve my projects. I can create websites based on the latest web technologies, find problems myself and solve them. This includes frontend technologies like HTML5, CSS3, JavaScript, and techniques like Responsive Web Design. I have also created a few pages with the Angular framework.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about/about.component.html</context>
+          <context context-type="linenumber">6,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1153721192129533394" datatype="html">
+        <source>Contact me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4078466575748260942" datatype="html">
+        <source>Contact me via the form below or by email to <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;emailstring&quot;
+                target=&quot;_top&quot;&gt;"/>zeiler.niklas@outlook.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="776428777159750815" datatype="html">
+        <source>Please enter your name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6618618096091374507" datatype="html">
+        <source>Please type your e-mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8066608938393600549" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4565641257745514487" datatype="html">
+        <source>Please type your message here</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="490436212862839617" datatype="html">
+        <source>Send mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6680269775270110594" datatype="html">
+        <source>Through HTML I have gained insight into how easy it is to design the content of a website. Through my acquired knowledge and constant interest to expand this knowledge, I can develop a content-rich website for you with the help of HTML. Whether semantic markup, user-friendly web forms, or canvas elements are no problem for me.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6360621049829837341" datatype="html">
+        <source>Cascading Style Sheets(CSS) had their beginnings in 1993. Since then CSS is in version CSS3 and has become the standard for designing, formatting, and aligning HTML elements. In frontend development, it is inevitable to work with CSS3 and therefore I create appealing and user-friendly websites for you.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1388256372306697245" datatype="html">
+        <source>As a frontend developer, you can&apos;t get around JavaScript these days if you want to make your website dynamic. Whether you want to evaluate user interactions, change content, reload or generate and thus expand the content. I would be happy to add the appropriate logic to your website to get a frictionless function of the website.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7141946452200252046" datatype="html">
+        <source>I was able to gain experience with APIs (Application Programming Interface) during my further education. This allows commands, functions, protocols, and objects to be used by programmers to communicate with another system or to create software.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4094631976455651007" datatype="html">
+        <source>Due to the growing number of mobile devices, the interest in responsive websites is increasing. I have already gained some experience in this area, as I have adapted all my projects for a wide range of resolutions.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1492971775192667862" datatype="html">
+        <source>GitHub is the business card of a software developer. You can upload your code there and it is visible for everyone depending on the settings. I also uploaded my projects there. Even when I had to develop projects in a team, we worked with Github.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3229410416367115277" datatype="html">
+        <source>Angular is a Typescript-based framework. Angular includes a lot of integrated libraries that cover different functions. I could develop projects with Angular, like my own website.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5123459791940672015" datatype="html">
+        <source>TypeScript is an extension of JavaScript and is used in the Angular framework. Thanks to my work with Angular I could also gain experience with TypeScript and learn how to use it.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="816428926442226164" datatype="html">
+        <source>Firebase is a platform that you can also use as a backend server. There you can create databases and access them from different devices. I have created a small card game that you can play online with your friends.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/descriptions.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6306257709644342476" datatype="html">
+        <source>Hi, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> I am <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;colored&quot;&gt;"/>Niklas<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Front-End Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4084744525544248674" datatype="html">
+        <source>Created my free logo at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://logomakr.com/&quot;&gt;"/>LogoMakr.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4342625008558026850" datatype="html">
+        <source>Skills</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5491084532551383168" datatype="html">
+        <source>Work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5891707175321515013" datatype="html">
+        <source>Imprint</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8440128775129354214" datatype="html">
+        <source>Privacy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2509141182388535183" datatype="html">
+        <source>View</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects-solo/projects-solo.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5966114338689624298" datatype="html">
+        <source>Lieferando recreated with JavaScript</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3847070669961761407" datatype="html">
+        <source>Pokedex created with an API and JavaScript</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projectsfirst.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7745439115993299725" datatype="html">
+        <source>Jump and run game written with JavaScript and object orientation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projectsfirst.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5419943386106064119" datatype="html">
+        <source>My own webpage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8480474776170272189" datatype="html">
+        <source>Card game created with Angular and firebase</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projectsfirst.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8532615857083525292" datatype="html">
+        <source>My work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1105944378334815279" datatype="html">
+        <source>Here you can find a small selection of my projects.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Please feel free to visit my <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+                routerLink=&quot;projects-solo&quot;&gt;"/>work<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> page to see more.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1721623951657185823" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/img/projects/{{ projectfirst.imgover }}&quot;&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a  href=&quot;{{ projectfirst.url }}&quot; target=&quot;_blank&quot;&gt;"/>View<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4313398998123834082" datatype="html">
+        <source>Mail sent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/send-mail-dialog/send-mail-dialog.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244008607984069999" datatype="html">
+        <source>Thank you for your message. I will be in touch soon.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/send-mail-dialog/send-mail-dialog.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7819314041543176992" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/send-mail-dialog/send-mail-dialog.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
