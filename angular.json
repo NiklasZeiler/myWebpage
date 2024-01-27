@@ -7,6 +7,10 @@
   "newProjectRoot": "projects",
   "projects": {
     "niklas-zeiler": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {"de-CH": "src/locale/messages.de.xlf"}
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,6 +27,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": [
+              "de-CH"
+            ],
             "outputPath": "dist/niklas-zeiler",
             "index": "src/index.html",
             "main": "src/main.ts",

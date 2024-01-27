@@ -14,11 +14,11 @@
                 <div class="card_description">
                     <div class="project_type">{{ projectfirst.type }}</div>
                     <div class="project_title">{{ projectfirst.name }}</div>
-                    <div class="project_description">{{ projectfirst.description }}</div>                    
+                    <div class="project_description">{{ projectfirst.description }}</div>
                 </div>
-                <div i18n id="card{{i}}" class="overlay_project card">
+                <div id="card{{i}}" class="overlay_project card">
                     <img src="assets/img/projects/{{ projectfirst.imgover }}">
-                    <a  href="{{ projectfirst.url }}" target="_blank">View</a>
+                    <a i18n href="{{ projectfirst.url }}" target="_blank">View</a>
                 </div>
             </div>
         </div>

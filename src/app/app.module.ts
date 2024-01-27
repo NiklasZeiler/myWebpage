@@ -6,6 +6,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatDialogModule } from '@angular/material/dialog';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,11 +20,11 @@ import { AboutComponent } from './about/about.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { AboutSoloComponent } from './about-solo/about-solo.component';
 import { SkillsComponent } from './skills/skills.component';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { ContactSoloComponent } from './contact-solo/contact-solo.component';
 import { SendMailDialogComponent } from './send-mail-dialog/send-mail-dialog.component';
+
 
 
 @NgModule({
@@ -47,7 +48,6 @@ import { SendMailDialogComponent } from './send-mail-dialog/send-mail-dialog.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule,
     MatCardModule,
     FormsModule,
     MatToolbarModule,
@@ -56,6 +56,8 @@ import { SendMailDialogComponent } from './send-mail-dialog/send-mail-dialog.com
     HttpClientModule,
     ReactiveFormsModule,
     MatDialogModule,
+    TranslateModule.forRoot()
+
   ],
 
   providers: [],

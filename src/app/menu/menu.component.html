@@ -11,6 +11,13 @@
         <a i18n routerLink="about-solo">About</a>
         <a i18n routerLink="contact-solo">Contact</a>
     </div>
+    <ul class="translations">
+        <li *ngFor="let locale of localesList">
+            <a class="translation" href="https://niklas-zeiler.de/{{locale.code}}/**">
+                {{locale.label}}
+            </a>
+        </li>
+    </ul>
     <div class="social-media">
         <a href="https://www.linkedin.com/in/niklas-zeiler-4b2a56220/"><svg viewBox="0 0 24 24">
                 <path fill="#ffffff66"
@@ -28,9 +35,13 @@
 
 </nav>
 
+<span class="material-symbols-outlined" *ngIf="!menuIsOpen" (click)="menuOpenBtn()">
+    menu
+</span>
+<span class="material-symbols-outlined" *ngIf="menuIsOpen" (click)="menuCloseBtn()">
+    close
+</span>
 
-<mat-icon *ngIf="!menuIsOpen" (click)="menuOpenBtn()">menu</mat-icon>
-<mat-icon *ngIf="menuIsOpen" (click)="menuCloseBtn()">close</mat-icon>
 
 
 <div [ngClass]="menuIsOpen ? 'fade' : 'open'" class="wrapper" id="wrapper">
@@ -43,6 +54,13 @@
         <a i18n routerLink="about-solo" (click)="closeResponseMenu()">About</a>
         <a i18n routerLink="contact-solo" (click)="closeResponseMenu()">Contact</a>
     </div>
+    <ul class="translations-respo">
+        <li *ngFor="let locale of localesList">
+            <a class="translation-repo" href="https://niklas-zeiler.de/{{locale.code}}/**">
+                {{locale.label}}
+            </a>
+        </li>
+    </ul>
     <div class="social-media-responsive">
         <a href="https://www.linkedin.com/in/niklas-zeiler-4b2a56220/"><svg viewBox="0 0 24 24">
                 <path fill="#ffffff66"

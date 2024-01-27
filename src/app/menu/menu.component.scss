@@ -177,7 +177,7 @@ nav {
     transition: all 1s ease-out;
     display: none;
 
-    ul {
+    .ul {
         position: absolute;
         top: 20%;
         left: 48%;
@@ -208,6 +208,43 @@ nav {
             }
         }
     }
+
+    .translations-respo {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+
+        .translation-repo {
+            text-decoration: none;
+            text-align: center;
+            width: 100%;
+            color: rgba(255, 255, 255, 0.4);
+            border-bottom: 1px solid #403e3e;
+            line-height: 50px;
+            font-weight: 300;
+            transition: color 0.3s;
+        }
+    }
+}
+
+.translations {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+
+    .translation {
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.4);
+        border-bottom: 1px solid #403e3e;
+        line-height: 50px;
+        font-weight: 300;
+        transition: color 0.3s;
+    }
 }
 
 .open {
@@ -219,7 +256,10 @@ nav {
     opacity: 1;
 }
 
-.mat-icon {
+.material-symbols-outlined {
+    line-height: unset;
+    font-size: 50px;
+    color: white;
     width: unset;
     position: fixed;
     cursor: pointer;
@@ -227,19 +267,18 @@ nav {
     top: 20px;
     right: 20px;
     display: none;
-}
-
-.material-icons {
-    line-height: unset;
-    font-size: 50px;
-    color: white;
+    font-variation-settings:
+        "FILL" 0,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 24;
 }
 
 @media screen and (max-width: 1000px) {
     nav {
         display: none;
     }
-    .mat-icon {
+    .material-symbols-outlined {
         display: flex;
     }
 

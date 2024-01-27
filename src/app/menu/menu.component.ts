@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -9,12 +10,18 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   menuIsOpen: boolean = false;
+  localesList = [
+    { code: "en-US", label: $localize`English` },
+    { code: "de-CH", label: $localize`German` }
+  ]
+
 
   constructor() { }
 
 
 
   ngOnInit(): void {
+
 
   }
 

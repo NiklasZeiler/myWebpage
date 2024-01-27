@@ -42,7 +42,7 @@ export const allProjects = [
     },
     // {
     //     name: 'Simple-CRM',
-    //     description: $localize`A Customer-Relationship-Management-System`
+    //     description: $localize`A Customer-Relationship-Management-System`,
     //     img: 'simple-crm.png',
     //     imgover: 'simple-crm.png',
     //     type: 'Angular & Firebase',

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-GB" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="6212045243017027205" datatype="html">
         <source>My Story</source>
@@ -20,7 +20,7 @@
       </trans-unit>
       <trans-unit id="1571061323476541483" datatype="html">
         <source>My name is Niklas Zeiler and I am a Front-End Developer.</source>
-        <target>Mein Name ist Niklas Zeiler und ich bin Frontend-Entwickler.</target>
+        <target>Mein Name ist Niklas Zeiler und ich bin Frontend Entwickler.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
           <context context-type="linenumber">6</context>
@@ -44,18 +44,18 @@
       </trans-unit>
       <trans-unit id="2489979977367470998" datatype="html">
         <source>Why did I become a software developer?</source>
-        <target>Warum bin ich Softwareentwickler geworden?</target>
+        <target>Warum wollte ich Softwareentwickler werden?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3235110383760840733" datatype="html">
-        <source>For me, becoming a software developer was the next logical step. After working in the automotive industry for seven years and becoming more and more interested in programming, I decided to turn my passion into a profession. Some time ago, I started reading up on programming with the help of the literature and wrote my first small projects. Soon I realized that I could do this with professional support. When I became aware of the Developer Academy in 2021, I decided to train there to become a software developer. During this training, I built various projects from responsive websites to small business apps in a team or on my own.</source>
+      <trans-unit id="7857628975175987061" datatype="html">
+        <source>For me, becoming a software developer was the next logical step. After working in the automotive industry for seven years and becoming more and more interested in programming, I decided to turn my passion into a profession. Some time ago, I started reading up on programming with the help of the literature and wrote my first small projects. Soon I realized that I could do this with professional support. When I became aware of the Developer Academy in 2021, I decided to train there to become a software developer. During this training, I built various projects from responsive websites to small business apps in a team or on my own. </source>
         <target>Für mich war es der nächste logische Schritt, Softwareentwickler zu werden. Nachdem ich sieben Jahre in der Automobilbranche gearbeitet hatte und mich immer mehr für das Programmieren interessierte, beschloss ich, meine Leidenschaft zum Beruf zu machen. Vor einiger Zeit begann ich, mich mit Hilfe von Literatur in die Programmierung einzulesen und schrieb meine ersten kleinen Projekte. Bald merkte ich, dass ich dies mit professioneller Unterstützung tun konnte. Als ich im Jahr 2021 auf die Developer Academy aufmerksam wurde, beschloss ich, mich dort zum Softwareentwickler ausbilden zu lassen. Während dieser Ausbildung habe ich verschiedene Projekte von responsiven Websites bis hin zu kleinen Business-Apps im Team oder alleine entwickelt.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
-          <context context-type="linenumber">19,27</context>
+          <context context-type="linenumber">19,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6541147577409583805" datatype="html">
@@ -63,7 +63,7 @@
         <target>Was sind meine Stärken?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3487119508230385122" datatype="html">
@@ -71,11 +71,11 @@
         <target>Durch meine frühere Tätigkeit in einem großen Autohaus kann ich gut mit Stress umgehen und finde immer eine Lösung. Dadurch habe ich auch ein sehr hohes Maß an Eigeninitiative, was durch das Erstellen meiner Projekte zusätzlich gefördert wurde. Bei der Arbeit mit mehreren Personen kam mir meine Teamfähigkeit zugute. Meine Lernbereitschaft und mein Interesse an der Lösung neuer Aufgaben zählen ebenfalls zu meinen Stärken.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
-          <context context-type="linenumber">31,36</context>
+          <context context-type="linenumber">30,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8197921676324803850" datatype="html">
-        <source> About </source>
+        <source> About</source>
         <target>Über</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
@@ -116,9 +116,9 @@
       </trans-unit>
       <trans-unit id="4078466575748260942" datatype="html">
         <source>Contact me via the form below or by email to <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;emailstring&quot;
-                target=&quot;_top&quot;&gt;"/>zeiler.niklas&#64;outlook.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-                <target>Kontaktiere mich über das untenstehende Formular oder per E-Mail an <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;emailstring&quot;
-                target=&quot;_top&quot;&gt;"/>zeiler.niklas&#64;outlook.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+                target=&quot;_top&quot;&gt;"/>zeiler.niklas@outlook.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Kontaktiere mich mit dem unteren Formular oder mit einer Email an <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;emailstring&quot;
+                target=&quot;_top&quot;&gt;"/>zeiler.niklas@outlook.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
           <context context-type="linenumber">4,5</context>
@@ -142,7 +142,7 @@
       </trans-unit>
       <trans-unit id="776428777159750815" datatype="html">
         <source>Please enter your name</source>
-        <target>Nitte gib deinen Namen ein</target>
+        <target>Bitte gib deinen Namen ein</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
           <context context-type="linenumber">11</context>
@@ -154,7 +154,7 @@
       </trans-unit>
       <trans-unit id="4768749765465246664" datatype="html">
         <source>Email</source>
-        <target>E-Mail</target>
+        <target>Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
           <context context-type="linenumber">14</context>
@@ -190,7 +190,7 @@
       </trans-unit>
       <trans-unit id="4565641257745514487" datatype="html">
         <source>Please type your message here</source>
-        <target>Bitte gib deine Nachricht hier ein</target>
+        <target>Bitte gib deinen Nachricht ein</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
           <context context-type="linenumber">23</context>
@@ -202,7 +202,7 @@
       </trans-unit>
       <trans-unit id="490436212862839617" datatype="html">
         <source>Send mail</source>
-        <target>Senden</target>
+        <target>Sende Nachricht</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact-solo/contact-solo.component.html</context>
           <context context-type="linenumber">28,29</context>
@@ -294,7 +294,7 @@
       </trans-unit>
       <trans-unit id="4084744525544248674" datatype="html">
         <source>Created my free logo at <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://logomakr.com/&quot;&gt;"/>LogoMakr.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <target>Kostenlos Logo greiert bei <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://logomakr.com/&quot;&gt;"/>LogoMakr.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <target>Kostenloses Logo mit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://logomakr.com/&quot;&gt;"/>LogoMakr.com<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>erstellt</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/imprint/imprint.component.html</context>
           <context context-type="linenumber">8</context>
@@ -309,31 +309,31 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5491084532551383168" datatype="html">
         <source>Work</source>
-        <target>Arbeiten</target>
+        <target>Arbeit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1726363342938046830" datatype="html">
         <source>About</source>
-        <target>Über</target>
+        <target>Über mich</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
@@ -345,7 +345,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5891707175321515013" datatype="html">
@@ -362,6 +362,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
           <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+            <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <target>Englisch</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1858110241312746425" datatype="html">
+        <source>German</source>
+        <target>Deutsch</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2509141182388535183" datatype="html">
@@ -394,7 +410,7 @@
       </trans-unit>
       <trans-unit id="7745439115993299725" datatype="html">
         <source>Jump and run game written with JavaScript and object orientation</source>
-        <target>Jump&amp;Run Spiel in Javascript und Objektorientierung</target>
+        <target>Jump&amp;Run Spiel mit Javascript und Objektorientierung geschrieben</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects.ts</context>
           <context context-type="linenumber">21</context>
@@ -414,7 +430,7 @@
       </trans-unit>
       <trans-unit id="8480474776170272189" datatype="html">
         <source>Card game created with Angular and firebase</source>
-        <target>Kartenspiel mit Angular und Firebase</target>
+        <target>Kartenspiel erstellt mit Angular und Firebase</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects.ts</context>
           <context context-type="linenumber">37</context>
@@ -426,7 +442,7 @@
       </trans-unit>
       <trans-unit id="8532615857083525292" datatype="html">
         <source>My work</source>
-        <target>Meine Arbeiten</target>
+        <target>Meine Arbeit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
           <context context-type="linenumber">5</context>
@@ -435,8 +451,8 @@
       <trans-unit id="1105944378334815279" datatype="html">
         <source>Here you can find a small selection of my projects.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Please feel free to visit my <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
                 routerLink=&quot;projects-solo&quot;&gt;"/>work<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> page to see more.</source>
-                <target>Hier findest du eine kleine Auswahl meiner Projekte.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Schaue gerne auf meiner <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
-                routerLink=&quot;projects-solo&quot;&gt;"/>Arbeiten<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Seite, um mehr zu sehen.</target>
+                <target>Hier siehst du eine Auswahl meiner Projekte.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Bitte klicke auf <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+                routerLink=&quot;projects-solo&quot;&gt;"/>Arbeiten<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> um mehr zu sehen.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
           <context context-type="linenumber">7,8</context>
@@ -451,7 +467,7 @@
       </trans-unit>
       <trans-unit id="4313398998123834082" datatype="html">
         <source>Mail sent</source>
-        <target>Mail gesendet</target>
+        <target>Nachricht gesendet</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/send-mail-dialog/send-mail-dialog.component.html</context>
           <context context-type="linenumber">2</context>

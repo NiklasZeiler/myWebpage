@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-GB" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="6212045243017027205" datatype="html">
         <source>My Story</source>
@@ -44,25 +44,25 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3235110383760840733" datatype="html">
-        <source>For me, becoming a software developer was the next logical step. After working in the automotive industry for seven years and becoming more and more interested in programming, I decided to turn my passion into a profession. Some time ago, I started reading up on programming with the help of the literature and wrote my first small projects. Soon I realized that I could do this with professional support. When I became aware of the Developer Academy in 2021, I decided to train there to become a software developer. During this training, I built various projects from responsive websites to small business apps in a team or on my own.</source>
+      <trans-unit id="7857628975175987061" datatype="html">
+        <source>For me, becoming a software developer was the next logical step. After working in the automotive industry for seven years and becoming more and more interested in programming, I decided to turn my passion into a profession. Some time ago, I started reading up on programming with the help of the literature and wrote my first small projects. Soon I realized that I could do this with professional support. When I became aware of the Developer Academy in 2021, I decided to train there to become a software developer. During this training, I built various projects from responsive websites to small business apps in a team or on my own. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
-          <context context-type="linenumber">19,27</context>
+          <context context-type="linenumber">19,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6541147577409583805" datatype="html">
         <source>What are my strengths?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3487119508230385122" datatype="html">
         <source>Due to my previous work in a large car dealership, I can handle stress well and always find a solution. As a result, I also have a very high degree of initiative, which was additionally promoted by creating my projects. When working with several people, my ability to work in a team came in handy. My willingness to learn and my interest in solving new tasks are also among my strengths. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-solo/about-solo.component.html</context>
-          <context context-type="linenumber">31,36</context>
+          <context context-type="linenumber">30,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8197921676324803850" datatype="html">
@@ -275,7 +275,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5491084532551383168" datatype="html">
@@ -286,7 +286,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">42</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1726363342938046830" datatype="html">
@@ -297,7 +297,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
@@ -308,21 +308,35 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5891707175321515013" datatype="html">
         <source>Imprint</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8440128775129354214" datatype="html">
         <source>Privacy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu/menu.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1858110241312746425" datatype="html">
+        <source>German</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/menu.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2509141182388535183" datatype="html">
@@ -330,6 +344,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects-solo/projects-solo.component.html</context>
           <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5966114338689624298" datatype="html">
@@ -392,13 +410,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
           <context context-type="linenumber">7,8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1721623951657185823" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/img/projects/{{ projectfirst.imgover }}&quot;&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a  href=&quot;{{ projectfirst.url }}&quot; target=&quot;_blank&quot;&gt;"/>View<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">20,21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4313398998123834082" datatype="html">
